@@ -14,7 +14,13 @@ export class DataService {
   }
 
 
-
+//The idea to remake this was based upon my previous javascript version. I wanted to do a new one in typescript with the angular framework in mind.
+//The issues I faced were time, trying to think of simple ways to iterate through arrays and objects in 1 function without causing overload
+//and trying a refined approach that would cut down on code by getting rid of redundancies. The previous variant linked below used
+//local storage and lists to put all the cities a user wanted in one place and they would be able to go through and check the weather for the week 
+//of whatever city they wanted to. I don't think this is actually super complicated, but I couldn't quickly piece together what I was aiming for to
+//satisfy the requirements and my own vision for the project
+//https://github.com/maaoruzketo/WeatherAPI this is the link to the working javascript variant
 
   url_weather = "https://api.openweathermap.org/data/2.5/weather?q=stockton,ca";
   // url_weather = "https://api.openweathermap.org/data/2.5/weather?q=";
