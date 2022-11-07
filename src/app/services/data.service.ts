@@ -17,11 +17,13 @@ export class DataService {
 
 
   url_weather = "https://api.openweathermap.org/data/2.5/weather?q=stockton,ca";
+  // url_weather = "https://api.openweathermap.org/data/2.5/weather?q=";
   url_forecast = "https://api.openweathermap.org/data/2.5/forecast?q=";
   // url_city = document.getElementById('userCity');
   url_units = "&units=imperial";
   apiKey = "&appid=4d8cd4f16d0817094a8e1d42bfc0faca";
   weatherURL = this.url_weather + this.url_units + this.apiKey;
+  // weatherURL = this.url_weather + url_city + this.url_units + this.apiKey;
   // forecastURL = this.url_forecast + this.url_city + this.url_units + this.apiKey;
 
   // currentWeather= ;
