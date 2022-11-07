@@ -1,0 +1,66 @@
+<div class="container-fluid">
+    <div class="mx-5 px-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="header">
+                    <h1 class="">Daily Forecast</h1>
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-2 d-flex justify-content-end align-items-center">
+                        
+                    </div>
+                    <div class="col-8 d-flex justify-content-center">
+                        <input class="form-control" type="text" placeholder="Enter a City w/ its Country or state *Los Angeles,CA" id="userCity">
+                    </div>
+                    <div class="col-2 d-flex justify-content-start align-items-center">
+                        <button type="button" class="btn btn-primary deleteBtn" id="delBtn">Delete</button>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col d-flex justify-content-center">
+                        <h4 class="cityName" id="cityName"></h4>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-2 d-flex justify-content-end align-items-center">
+                        <button type="button" class="btn btn-primary prevBtn" id="prevBtn">Prev</button>
+                    </div>
+                    <div class="card col-8 d-flex justify-content-center align-items-center" style="width: 45rem;">
+                        <img class="img-fluid" src="" class="card-img-top" alt="..." id="weatherIMG">
+                        <div class="card-body d-flex justify-content-center">
+                            <!-- <h4 class="d-flex justify-content-center" id="currentDate"></h4>
+                                <h4 class="weatherReport d-flex justify-content-center" id="weatherHigh"></h4>
+                                <h4 class="weatherReport d-flex justify-content-center" id="weatherLow"></h4> -->
+                        </div>
+                    </div>
+                    <div class="col-2 d-flex justify-content-start align-items-center">
+                        <button type="button" class="btn btn-primary nextBtn" id="nextBtn">Next</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <h4 id="currentDate"></h4>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <h4 id="weatherHigh"></h4>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <h4 id="weatherLow"></h4>
+                    </div>
+                </div>
+
+
+
+                <hr>
+                <div class="row pt-5">
+                    <app-card></app-card>
+                </div>
+                <hr>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
